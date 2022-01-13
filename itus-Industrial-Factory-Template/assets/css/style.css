@@ -185,7 +185,7 @@ h6 {
 
 ul {
   padding-left: 0;
-  margin: 0;
+  margin: 10px;
   list-style-position: inside;
 }
 
@@ -497,6 +497,7 @@ b, strong {
   margin: 0.23em 0 0.5em;
   position: relative;
   text-transform: uppercase;
+  /* color: #ffbd34; */
 }
 
 @media (max-width: 991px) {
@@ -3834,7 +3835,7 @@ b, strong {
 .feature-projects .right-text .details, .projects-pg-section .right-text .details {
   left: 0;
   right: auto;
-  text-align: right;
+  /* text-align: right; */
 }
 
 @media (max-width: 991px) {
@@ -3857,6 +3858,7 @@ b, strong {
   -o-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+
 }
 
 @media (max-width: 991px) {
@@ -5289,6 +5291,7 @@ b, strong {
   width: 33.33%;
   float: left;
   overflow: hidden;
+  padding: 20px;
 }
 
 @media (max-width: 991px) {
@@ -8179,5 +8182,8 @@ b, strong {
   .fl-table tbody td {
       display: block;
       text-align: center;
+  }
+  .yellow h2{
+    color: yellow;
   }
 }
