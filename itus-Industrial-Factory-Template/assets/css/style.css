@@ -187,6 +187,7 @@ ul {
   padding-left: 0;
   margin: 10px;
   list-style-position: inside;
+  line-height: 2;
 }
 
 a {
@@ -2992,7 +2993,7 @@ b, strong {
   font-size: 24px;
   font-size: 1.6rem;
   font-weight: 500;
-  color: #ebebeb;
+  color: #f1c064;
   margin: -0.13em 0 0;
   text-transform: uppercase;
 }
@@ -3135,8 +3136,8 @@ b, strong {
 
 .site-footer .lower-footer .copyright {
   font-size: 15px;
-  font-size: 1rem;
-  float: left;
+  font-size: 0.8rem;
+  /* float: left; */
 }
 
 @media (max-width: 991px) {
@@ -3811,7 +3812,7 @@ b, strong {
 
 .feature-projects .grid .details, .projects-pg-section .grid .details {
   background-color: #fff;
-  width: calc(100% - 670px);
+  width: calc(100% - 630px);
   height: 100%;
   position: absolute;
   right: 0;
@@ -3835,7 +3836,7 @@ b, strong {
 .feature-projects .right-text .details, .projects-pg-section .right-text .details {
   left: 0;
   right: auto;
-  /* text-align: right; */
+text-align: right;
 }
 
 @media (max-width: 991px) {
@@ -3849,8 +3850,8 @@ b, strong {
 }
 
 .feature-projects .grid .details .inner, .projects-pg-section .grid .details .inner {
-  padding: 0 30px;
-  margin-top: -12px;
+  padding: 0 70px;
+  margin-top: 0px;
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -3973,7 +3974,7 @@ b, strong {
 --------------------------------------------------------------*/
 .cta-section, .cta-section-s2 {
   background-color: #0a172b;
-  padding: 65px 0 75px;
+  padding: 15px 0 15px;
 }
 
 .cta-section h2, .cta-section-s2 h2 {
@@ -4236,7 +4237,7 @@ b, strong {
 --------------------------------------------------------------*/
 .fun-fact-section {
   background-color: #0a172b;
-  padding: 80px 0 90px;
+  padding: 15px 0 15px;
 }
 
 @media (max-width: 991px) {
@@ -4687,6 +4688,7 @@ b, strong {
   position: relative;
   padding-left: 40px;
   line-height: 1.7em;
+  font-size: 18px;
 }
 
 .services-section-s2 .services-list-wrapper ul li i {
@@ -4952,6 +4954,17 @@ b, strong {
   top: -20px;
 }
 
+.feature-projects-s3 .img-holder:before {
+  content: "";
+  background-color: #ffbd34;
+  width: calc(100% - 20px);
+  height: calc(100% + 40px);
+  position: absolute;
+  right: -20px;
+  top: -20px;
+}
+
+
 @media (max-width: 767px) {
   .features-section-s2 .img-holder:before {
     display: none;
@@ -5044,6 +5057,7 @@ b, strong {
 
 .features-section-s2 .grid p {
   margin: 0;
+  font-size: 18px;
 }
 
 /*--------------------------------------------------------------
@@ -8078,7 +8092,7 @@ b, strong {
 /* Table Styles */
 
 .table-wrapper{
-  margin: 10px 70px 70px;
+  /* margin: 10px 70px 70px; */
   box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
 }
 

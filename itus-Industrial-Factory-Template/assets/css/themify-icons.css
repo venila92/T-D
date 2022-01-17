@@ -16,7 +16,7 @@
 	font-weight: normal;
 	font-variant: normal;
 	text-transform: none;
-	line-height: 1;
+	line-height: 2;
 
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
@@ -256,6 +256,7 @@
 }
 .ti-check-box:before {
 	content: "\e64d";
+	color: #ffbd34;
 }
 .ti-camera:before {
 	content: "\e64e";
